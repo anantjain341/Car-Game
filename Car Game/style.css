@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.hidden{
+    display: none;
+}
+.carGame{
+    background-color: wheat;
+}
+.car , .eCar{
+    width: 60px;
+    height: 110px;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    position: absolute;
+    bottom:100px;
+    /* left: 250px; */
+}
+.gameArea{
+    width: 400px;
+    height: 100vh;
+    background-color: rgb(30, 28, 34);
+    margin: auto;
+    position: relative;
+    border-left:8px dashed whitesmoke;
+    border-right:8px dashed whitesmoke;
+}
+.scoreboard{
+    position: absolute;
+    background-color: peru;
+    color: whitesmoke;
+    top: 15px;
+    left: 20px;
+    width: 20%;
+    /* height: 100px; */
+    line-height: 40px;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.4em;
+    border: 3px solid;
+    box-shadow: 0 5px 5px rgba(31, 29, 31, 0.267);
+    text-transform: uppercase;
+
+    
+}
+.startScreen{
+    position: absolute;
+    background-color: tomato;
+    color: thistle; 
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    line-height: 35px;  
+    width: 50%;
+    z-index: 1;
+    border: 3px solid;
+    cursor: pointer;
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing:3px;
+    word-spacing: 3px;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 5px 5px rgba(31, 29, 31, 0.267);
+    font-weight: bold;
+}
+.roadLine{
+    position: absolute;
+    width: 10px;
+    height: 100px;
+    left: 205px;
+    border-radius: 1px;
+    margin: auto;
+    background-color: whitesmoke;
+}
